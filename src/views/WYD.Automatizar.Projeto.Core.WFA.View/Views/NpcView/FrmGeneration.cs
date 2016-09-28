@@ -42,7 +42,7 @@ namespace WYD.Automatizar.Projeto.Core.WFA.View.Views.NpcView
             {
                 txtCaminho.Enabled = false;
                 btnGerar.Hide();
-                _npcGeneration.IniciarVerificação(caminho);
+                var npcs = _npcGeneration.IniciarVerificação(caminho);
             }
         }
 

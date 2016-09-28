@@ -5,8 +5,10 @@ namespace WYD.Automatizar.Projeto.Core.Domain.Entities
 {
     public class Npc : KeyEntityId
     {
+        public int Id { get; set; }
         public int MinuteGenerate { get; set; }
         public int MaxNumMob { get; set; }
+        public int MaxGroup { get; set; }
         public int MinGroup { get; set; }
         public string Leader { get; set; }
         public string Follower { get; set; }
