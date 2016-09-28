@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2FE270E9-CCC2-4944-A79D-7B7805C32E45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{149597A4-D756-4CFD-A602-120C0E0CFAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WYD.Automatizar.Projeto.Core.Domain", "src\WYD.Automatizar.Projeto.Core.Domain\WYD.Automatizar.Projeto.Core.Domain.csproj", "{B07AEC4D-7050-4E34-BEF5-4FB87773F8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WYD.Automatizar.Projeto.Core.Infra", "src\WYD.Automatizar.Projeto.Core.Infra\WYD.Automatizar.Projeto.Core.Infra.csproj", "{47C96834-2E36-4DDD-B127-04780E4E3C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WYD.Automatizar.Projeto.Core.WFA.View", "src\views\WYD.Automatizar.Projeto.Core.WFA.View\WYD.Automatizar.Projeto.Core.WFA.View.csproj", "{EF834A27-BA41-4F5A-A2FB-DF43122D2566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleTest", "ConsoleTest", "{30EF288C-961A-48B8-A2B1-F01B60A7C8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorDeObjetos", "GeradorDeObjetos\GeradorDeObjetos.csproj", "{6ACBE838-F8C0-4DE6-8F4E-3AF7212DA6FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07AEC4D-7050-4E34-BEF5-4FB87773F8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07AEC4D-7050-4E34-BEF5-4FB87773F8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07AEC4D-7050-4E34-BEF5-4FB87773F8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07AEC4D-7050-4E34-BEF5-4FB87773F8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C96834-2E36-4DDD-B127-04780E4E3C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C96834-2E36-4DDD-B127-04780E4E3C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C96834-2E36-4DDD-B127-04780E4E3C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C96834-2E36-4DDD-B127-04780E4E3C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF834A27-BA41-4F5A-A2FB-DF43122D2566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF834A27-BA41-4F5A-A2FB-DF43122D2566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF834A27-BA41-4F5A-A2FB-DF43122D2566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF834A27-BA41-4F5A-A2FB-DF43122D2566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACBE838-F8C0-4DE6-8F4E-3AF7212DA6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACBE838-F8C0-4DE6-8F4E-3AF7212DA6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACBE838-F8C0-4DE6-8F4E-3AF7212DA6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACBE838-F8C0-4DE6-8F4E-3AF7212DA6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B07AEC4D-7050-4E34-BEF5-4FB87773F8ED} = {2FE270E9-CCC2-4944-A79D-7B7805C32E45}
+		{47C96834-2E36-4DDD-B127-04780E4E3C34} = {2FE270E9-CCC2-4944-A79D-7B7805C32E45}
+		{EF834A27-BA41-4F5A-A2FB-DF43122D2566} = {149597A4-D756-4CFD-A602-120C0E0CFAC5}
+		{6ACBE838-F8C0-4DE6-8F4E-3AF7212DA6FE} = {30EF288C-961A-48B8-A2B1-F01B60A7C8BE}
+	EndGlobalSection
+EndGlobal
